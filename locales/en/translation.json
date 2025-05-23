@@ -1,0 +1,115 @@
+{
+  "navigation": {
+    "home": "Home",
+    "statistics": "Statistics",
+    "add": "Add",
+    "settings": "Settings"
+  },
+  "habits": {
+    "title": "My Habits",
+    "add": "Add Habit",
+    "edit": "Edit Habit",
+    "delete": "Delete Habit",
+    "complete": "Completed",
+    "incomplete": "Not Completed",
+    "filter": {
+      "show": "Show",
+      "all": "All",
+      "completed": "Completed",
+      "incomplete": "Incomplete"
+    },
+    "sort": {
+      "by": "Sort by",
+      "default": "Default",
+      "streak": "By streak",
+      "alphabetical": "Alphabetical",
+      "date": "By completion date"
+    },
+    "searchPlaceholder": "Search habits...",
+    "recommendations": "Recommendations",
+    "emptyState": {
+      "noHabitsTitle": "You don't have any habits yet",
+      "noHabitsText": "Create your first habit to start tracking",
+      "notFoundTitle": "No habits found",
+      "notFoundText": "Try changing your search or filter criteria"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "language": {
+      "title": "Interface Language",
+      "select": "Select Language"
+    },
+    "notifications": {
+      "title": "Notification Settings",
+      "enable": "Enable Notifications",
+      "time": "Notification Time",
+      "frequency": {
+        "title": "Notification Frequency",
+        "daily": "Daily",
+        "weekly": "Weekly",
+        "monthly": "Monthly"
+      },
+      "telegram": "Telegram Notifications"
+    },
+    "theme": "Theme"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "offlineMessage": "You are working in offline mode. Changes will be synchronized when the connection is restored.",
+    "refresh": "Refresh",
+    "new": "New",
+    "synchronize": "Synchronize",
+    "loading": "Loading..."
+  },
+  "statistics": {
+    "title": "Statistics",
+    "generalTitle": "General Statistics",
+    "totalHabits": "Total Habits",
+    "completedToday": "Completed Today",
+    "totalCompleted": "Total Completed",
+    "averageStreak": "Average Streak",
+    "progressTitle": "Habit Progress",
+    "loadingError": "An error occurred while loading statistics. Please try again."
+  },
+  "createHabit": {
+    "title": "New Habit",
+    "cancelButton": "Cancel",
+    "offlineWarning": "You are working offline. The habit will be synchronized with the server when connected to the internet.",
+    "createError": "An error occurred while creating the habit. Please try again.",
+    "loadingMessage": "Creating habit...",
+    "offlineSuccess": "Habit created locally and will be synchronized with the server when connected to the internet."
+  },
+  "habitForm": {
+    "nameLabel": "Habit Name",
+    "namePlaceholder": "e.g. Drink water",
+    "categoryLabel": "Category",
+    "categoryPlaceholder": "e.g. Health, Study",
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "Add details or goal for the habit",
+    "frequencyLabel": "Frequency",
+    "frequencyDaily": "Daily",
+    "frequencyWeekly": "Weekly",
+    "frequencyMonthly": "Monthly",
+    "targetStreakLabel": "Goal (number of days)",
+    "targetStreakHelperText": "Number of days to form the habit",
+    "startDateLabel": "Start Date",
+    "reminderTimeLabel": "Reminder Time",
+    "reminderTimeHelperText": "Select a time for a daily reminder (optional)",
+    "cancelButton": "Cancel",
+    "saveButton": "Save",
+    "createButton": "Create",
+    "validation": {
+      "nameRequired": "Habit name is required",
+      "nameTooLong": "Name cannot exceed 50 characters",
+      "descriptionTooLong": "Description cannot exceed 200 characters",
+      "invalidFrequency": "Select a valid frequency",
+      "targetStreakInvalid": "Enter a positive number",
+      "startDateRequired": "Start date is required",
+      "startDateInvalidFormat": "Invalid date format"
+    }
+  }
+} 

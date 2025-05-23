@@ -1,0 +1,115 @@
+{
+  "navigation": {
+    "home": "Главная",
+    "statistics": "Статистика",
+    "add": "Добавить",
+    "settings": "Настройки"
+  },
+  "habits": {
+    "title": "Мои привычки",
+    "add": "Добавить привычку",
+    "edit": "Редактировать привычку",
+    "delete": "Удалить привычку",
+    "complete": "Выполнено",
+    "incomplete": "Не выполнено",
+    "filter": {
+      "show": "Показать",
+      "all": "Все",
+      "completed": "Выполненные",
+      "incomplete": "Невыполненные"
+    },
+    "sort": {
+      "by": "Сортировать",
+      "default": "По умолчанию",
+      "streak": "По серии",
+      "alphabetical": "По алфавиту",
+      "date": "По дате выполнения"
+    },
+    "searchPlaceholder": "Поиск привычек...",
+    "recommendations": "Рекомендации",
+    "emptyState": {
+      "noHabitsTitle": "У вас пока нет привычек",
+      "noHabitsText": "Создайте свою первую привычку, чтобы начать отслеживание",
+      "notFoundTitle": "Привычки не найдены",
+      "notFoundText": "Попробуйте изменить критерии поиска или фильтрации"
+    }
+  },
+  "settings": {
+    "title": "Настройки",
+    "language": {
+      "title": "Язык интерфейса",
+      "select": "Выберите язык"
+    },
+    "notifications": {
+      "title": "Настройки уведомлений",
+      "enable": "Включить уведомления",
+      "time": "Время уведомлений",
+      "frequency": {
+        "title": "Частота уведомлений",
+        "daily": "Ежедневно",
+        "weekly": "Еженедельно",
+        "monthly": "Ежемесячно"
+      },
+      "telegram": "Уведомления в Telegram"
+    },
+    "theme": "Тема"
+  },
+  "common": {
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "delete": "Удалить",
+    "edit": "Редактировать",
+    "offlineMessage": "Вы работаете в офлайн режиме. Изменения будут синхронизированы при восстановлении соединения.",
+    "refresh": "Обновить",
+    "new": "Новая",
+    "synchronize": "Синхронизировать",
+    "loading": "Загрузка..."
+  },
+  "statistics": {
+    "title": "Статистика",
+    "generalTitle": "Общая статистика",
+    "totalHabits": "Всего привычек",
+    "completedToday": "Завершено сегодня",
+    "totalCompleted": "Всего завершений",
+    "averageStreak": "Средняя серия",
+    "progressTitle": "Прогресс по привычкам",
+    "loadingError": "Произошла ошибка при загрузке статистики. Пожалуйста, попробуйте снова."
+  },
+  "createHabit": {
+    "title": "Новая привычка",
+    "cancelButton": "Отмена",
+    "offlineWarning": "Вы работаете в офлайн режиме. Привычка будет синхронизирована с сервером при подключении к интернету.",
+    "createError": "Произошла ошибка при создании привычки. Пожалуйста, попробуйте снова.",
+    "loadingMessage": "Создание привычки...",
+    "offlineSuccess": "Привычка создана в локальном режиме и будет синхронизирована с сервером при подключении к интернету."
+  },
+  "habitForm": {
+    "nameLabel": "Название привычки",
+    "namePlaceholder": "Например: Пить воду",
+    "categoryLabel": "Категория",
+    "categoryPlaceholder": "Например: Здоровье, Учёба",
+    "descriptionLabel": "Описание",
+    "descriptionPlaceholder": "Добавьте подробности или цель привычки",
+    "frequencyLabel": "Частота",
+    "frequencyDaily": "Ежедневно",
+    "frequencyWeekly": "Еженедельно",
+    "frequencyMonthly": "Ежемесячно",
+    "targetStreakLabel": "Цель (количество дней)",
+    "targetStreakHelperText": "Количество дней для формирования привычки",
+    "startDateLabel": "Дата начала",
+    "reminderTimeLabel": "Напоминание (время)",
+    "reminderTimeHelperText": "Выберите время для ежедневного напоминания (опционально)",
+    "cancelButton": "Отмена",
+    "saveButton": "Сохранить",
+    "createButton": "Создать",
+    "validation": {
+      "nameRequired": "Название привычки обязательно",
+      "nameTooLong": "Название не должно превышать 50 символов",
+      "descriptionTooLong": "Описание не должно превышать 200 символов",
+      "invalidFrequency": "Выберите корректную частоту",
+      "targetStreakInvalid": "Введите положительное число",
+      "startDateRequired": "Дата начала обязательна",
+      "startDateInvalidFormat": "Неверный формат даты"
+    }
+  }
+} 
