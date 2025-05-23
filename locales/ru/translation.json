@@ -10,8 +10,12 @@
     "add": "Добавить привычку",
     "edit": "Редактировать привычку",
     "delete": "Удалить привычку",
-    "complete": "Выполнено",
-    "incomplete": "Не выполнено",
+    "deleteConfirm": "Вы уверены, что хотите удалить эту привычку?",
+    "streak": "Серия: {{count}}",
+    "maxStreak": "Максимальная серия: {{count}}",
+    "targetStreak": "Цель: {{count}} дней",
+    "completed": "Выполнено",
+    "notCompleted": "Не выполнено",
     "filter": {
       "show": "Показать",
       "all": "Все",
@@ -32,7 +36,8 @@
       "noHabitsText": "Создайте свою первую привычку, чтобы начать отслеживание",
       "notFoundTitle": "Привычки не найдены",
       "notFoundText": "Попробуйте изменить критерии поиска или фильтрации"
-    }
+    },
+    "create": "Создать привычку"
   },
   "settings": {
     "title": "Настройки",
@@ -55,15 +60,18 @@
     "theme": "Тема"
   },
   "common": {
+    "loading": "Загрузка...",
+    "error": "Произошла ошибка",
+    "retry": "Повторить",
     "save": "Сохранить",
     "cancel": "Отмена",
     "delete": "Удалить",
     "edit": "Редактировать",
+    "create": "Создать",
     "offlineMessage": "Вы работаете в офлайн режиме. Изменения будут синхронизированы при восстановлении соединения.",
     "refresh": "Обновить",
     "new": "Новая",
-    "synchronize": "Синхронизировать",
-    "loading": "Загрузка..."
+    "synchronize": "Синхронизировать"
   },
   "statistics": {
     "title": "Статистика",
@@ -84,24 +92,19 @@
     "offlineSuccess": "Привычка создана в локальном режиме и будет синхронизирована с сервером при подключении к интернету."
   },
   "habitForm": {
-    "nameLabel": "Название привычки",
-    "namePlaceholder": "Например: Пить воду",
-    "categoryLabel": "Категория",
-    "categoryPlaceholder": "Например: Здоровье, Учёба",
+    "titleLabel": "Название",
+    "titlePlaceholder": "Введите название привычки",
     "descriptionLabel": "Описание",
-    "descriptionPlaceholder": "Добавьте подробности или цель привычки",
+    "descriptionPlaceholder": "Введите описание привычки",
     "frequencyLabel": "Частота",
     "frequencyDaily": "Ежедневно",
     "frequencyWeekly": "Еженедельно",
-    "frequencyMonthly": "Ежемесячно",
-    "targetStreakLabel": "Цель (количество дней)",
-    "targetStreakHelperText": "Количество дней для формирования привычки",
-    "startDateLabel": "Дата начала",
-    "reminderTimeLabel": "Напоминание (время)",
-    "reminderTimeHelperText": "Выберите время для ежедневного напоминания (опционально)",
-    "cancelButton": "Отмена",
-    "saveButton": "Сохранить",
-    "createButton": "Создать",
+    "targetStreakLabel": "Целевая серия",
+    "targetStreakHelperText": "Сколько дней подряд нужно выполнять привычку",
+    "categoryLabel": "Категория",
+    "categoryPlaceholder": "Выберите категорию",
+    "nameLabel": "Название привычки",
+    "namePlaceholder": "Например: Пить воду",
     "validation": {
       "nameRequired": "Название привычки обязательно",
       "nameTooLong": "Название не должно превышать 50 символов",
